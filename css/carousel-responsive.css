@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: auto;
+  margin-bottom: 0px;
+  margin-top:8em;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

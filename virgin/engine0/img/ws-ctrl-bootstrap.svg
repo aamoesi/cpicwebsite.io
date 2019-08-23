@@ -1,6 +1,8 @@
 <!DOCTYPE html> 
 <html> 
-    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+    <head> 
+
+		
         <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" /> 
         <meta name="author" content="www.frebsite.nl" /> 
         <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" /> 
@@ -12,6 +14,7 @@
             <script type="text/javascript" src="components/jquery-1.10.2.min.js"></script>
         -->  
         <script type="text/javascript" src="virgin/js/jquery.min.js"></script>    
+          
         <script type="text/javascript" src="virgin/js/jquery.mmenu.js"></script>         
         <script type="text/javascript">
 			$(function() {
@@ -29,45 +32,58 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"> 
         <link rel="stylesheet" href="virgin/css/font-awesome.min.css"> 
+        
+        
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->         
         <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->         
         <!-- Start WOWSlider.com HEAD section -->         
-        <!-- add to the <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> of your page -->         
+        <!-- add to the <head> of your page -->         
         <link rel="stylesheet" type="text/css" href="virgin/engine0/style.css" /> 
         <!-- End WOWSlider.com HEAD section -->         
         <link href="virgin/css/responsive.css" rel="stylesheet" type="text/css">
+		
 		<link href="css/greaterworks.css" rel="stylesheet" type="text/css">
+        
      <!-- Chatra {literal} -->
+
     <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jun 30, 2019  07:30:00").getTime();
+
 // Update the count down every 1 second
 var x = setInterval(function() {
+
     // Get todays date and time
     var now = new Date().getTime();
+    
     // Find the distance between now an the count down date
     var distance = countDownDate - now;
+    
     // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
     // Output the result in an element with id="demo"
     document.getElementById("countdown").innerHTML = days + " Days - " + hours + " Hrs - "
     + minutes + " : " + seconds + " - ";
     //document.getElementById("countdown").innerHTML = days + "Days " + hours + "Hrs "
     //+ minutes + "Mins " + seconds + "s ";
+    
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "<a style='color:#fff; bg-color:#f00;' class='btn btn-sm btn-danger1' href='live.html'><i class='fa fa-play'></i> WATCH LIVE SERVICE </a>";
+        document.getElementById("countdown").innerHTML = "<a style='color:#fff; bg-color:#f00;' class='btn btn-sm btn-danger1' href='live'><i class='fa fa-play'></i> WATCH LIVE SERVICE </a>";
 		document.getElementById("live-txt").innerHTML="";
     }
 }, 1000);
 </script>
+
+                    
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -81,6 +97,8 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
+
 <style>
 .btn.btn-danger1 {
     box-shadow: 0 0px #c0392b;
@@ -95,6 +113,8 @@ s0.parentNode.insertBefore(s1,s0);
 	margin-right: 20px;
 }
 </style>   
+   
+  
   <!-- PushAlert -->
         <script type="text/javascript">
                 (function(d, t) {
@@ -105,68 +125,40 @@ s0.parentNode.insertBefore(s1,s0);
                 }(document, "script"));
         </script>
         <!-- End PushAlert -->
+        
     <script type="text/javascript">
+
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-20253028-2']);
   _gaq.push(['_trackPageview']);
+
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+
 </script>
+   
+          
+          
+           
     </head>     
     <body> 
         <div id="page">              
             <div id="content container"> 
                 <!-- Start WOWSlider.com BODY section -->                 
                 <!-- add to the <body> of your page -->                 
-				<style>
-/*
-@media only screen and (max-width: 400px) {
-.carousel .item {
-    height: 12vh;
-    background-color: #777;
-}
-}
-	@media screen and (min-device-width: 700px) and (max-device-width: 1200px) { 
-    .carousel .item {
-    height: 55vh;
-    background-color: #777;
-}
-}
-*/
-/*@media only screen and (min-width: 700px) {
-.carousel .item {
-    height: 55vh;
-    background-color: #777;
-}
-}*/
-</style>   
-<div class="container white-bg">
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=" active"></li>
-        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item  active">
-                  <img src="directory/gallery/flashbanner/home/GW Announcement CT.jpg" class="img-responsive" alt="">
-                  </div>
-        <div class="item ">
-                  <img src="directory/gallery/flashbanner/home/wisdom-2019-website.jpg" class="img-responsive" alt="">
-                  </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div>                   
-</div>                 
+				<div class="container white-bg">
+<section class="pg-empty-placeholder pagebanner1" id="pagebanner1" style="background-image:url('virgin/images/pageheader1.jpg');"></section>  </div>
+               
+				               
 <style>
 	.live-play-icon{
 		margin-top: -10px;
 	}
 </style>
+
 <section class="topbar " id="topbar"> 
                     <div id="header"> 
                         <a href="#menu"></a> 
@@ -199,22 +191,35 @@ s0.parentNode.insertBefore(s1,s0);
                                         <a target="_blank" title="Mensa Otabil Facebook" href="https://www.facebook.com/mensaotabil
 "><i class="fa fa-facebook"></i></a> 
                                     </li>  
+  
+                               
                                 </ul>  
+                                
+                                                               
+
+								
+                           
                             </div>                             
                             <div class="col-xs-12 col-sm-8 col-md-9 toplinks1" id="toplinks1"> 
                                 <p class="text-right">
-                                <a style="" href="live.html" class="live-play-icon topper1-text">
+                                <a style="" href="live" class="live-play-icon topper1-text">
+									
 									<span style="color: red;" id="live-txt">Live Service  <i class="fa fa-play"></i></span> 
 									<span id="countdown"></span></a> <span class="topper1-text"> | </span>
+                                                                    
+                                    
+                                    
+                                    
                                </p> 
                             </div>                             
                         </div>                         
                     </section> 
+                                        
                     <section id="topbar2 header-2" class="topbar2 header-2 globe-bg"> 
                         <div class="container"> 
                             <!-- Brand and toggle get grouped for better mobile display -->                             
                             <div class="main-nav navbar-header"> 
-                                <a href="home.html"> 
+                                <a href="home"> 
                                     <img src="images/logo-white.png" class=" brand-img img-responsive"> 
                                 </a>                                 
                             </div>                             
@@ -227,40 +232,44 @@ s0.parentNode.insertBefore(s1,s0);
                                         -->
                                        <!-- <br>
 <br>-->
+
                                 <ul class="nav navbar-nav navbar-right menu"> 
-<li><a href="home.html">Home</a></li> 
+<li><a href="home">Home</a></li> 
+
                                     <li class="nav-item dropdown"> 
                                         <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">About <i class="fa fa-angle-down"></i></a> 
                                         <ul class="dropdown-menu"> 
                                             <li> 
-                                                <a href="74.html">History</a> 
+                                                <a href="74">History</a> 
                                             </li> 
                                             <li> 
-                                                <a href="75.html">Church Services</a> 
+                                                <a href="75">Church Services</a> 
                                             </li> 
                                             <li> 
-                                                <a href="76.html">Our Mission Statement</a> 
+                                                <a href="76">Our Mission Statement</a> 
                                             </li> 
                                             <li> 
-                                                <a href="77.html"> Our Logo (Acts 2:41- 42)</a> 
+                                                <a href="77"> Our Logo (Acts 2:41- 42)</a> 
                                             </li> 
                                             <li> 
-                                                <a href="78.html">Our Message (Jeremiah 31:17)</a> 
+                                                <a href="78">Our Message (Jeremiah 31:17)</a> 
                                             </li> 
                                             <li> 
-                                                <a href="79.html">Our Philosophy</a> 
+                                                <a href="79">Our Philosophy</a> 
                                             </li> 
                                             <li> 
-                                                <a href="80.html">Statement Of Faith</a> 
+                                                <a href="80">Statement Of Faith</a> 
                                             </li> 
                                             <li> 
-                                                <a href="index.html">Vision Of ICGC (Acts 2:42)</a> 
+                                                <a href="81">Vision Of ICGC (Acts 2:42)</a> 
                                             </li> 
                                             <li> 
-                                                <a href="index.html">Mensa Otabil</a> 
+                                                <a href="84">Mensa Otabil</a> 
                                             </li> 
+                                            
                                         </ul>                                         
                                     </li>                                     
+
 <li class="nav-item dropdown"> 
 <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Stores <i class="fa fa-angle-down"></i></a> 
                                         <ul class="dropdown-menu"> 
@@ -270,6 +279,7 @@ s0.parentNode.insertBefore(s1,s0);
                                             <li> 
                                                 <a target="_blank" href="http://www.mensaotabil.com">Mensa Otabil ( Www.mensaotabil.com )</a> 
                                             </li> 
+                                            
                                         </ul>                                         
                                     </li>                                     
 <li class="nav-item dropdown"> 
@@ -284,10 +294,12 @@ s0.parentNode.insertBefore(s1,s0);
                                             <li> 
                                                 <a href="https://www.greaterworkscentral.com">Greater Works</a> 
                                             </li> 
+                                            
                                         </ul>                                         
                                     </li>                                     
-<li><a target="_blank" href="index.html">Give</a></li> 
-<li><a href="index.html">Contact</a></li> 
+<li><a target="_blank" href="give">Give</a></li> 
+<li><a href="contact">Contact</a></li> 
+                                     
                                     <!-- /.dropdown -->                                     
                                 </ul>                                 
                             </div>                             
@@ -295,120 +307,12 @@ s0.parentNode.insertBefore(s1,s0);
                         </div>                         
                     </section>                     
                 </section>                 
-                <section class="contentblock3" id="contentblock3"> 
-                    <div class="container white-bg thumbs-padding"> 
-                        <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12 col-no-padding"> 
-                            <div class="row"> 
-                                <div class="grid col-md-3 col-sm-6 col-xs-12"> 
-                                                                  <figure class="effect-lily"> 
-                                        <img src="directory/gallery/home icons/home-live.jpg" alt="img01" /> 
-                                        <figcaption> 
-                                            <h2>Online Streaming</h2> 
-                                            <p><p>Watch our church services live on any smart device&nbsp;</p>
-</p> 
-                                            <a href="live
-" >View more</a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>  
-                                <div class="grid col-md-3 col-sm-6 col-xs-12"> 
-                                                                  <figure class="effect-lily"> 
-                                        <img src="directory/gallery/home icons/hand-holding-a-red-heart-valentine-s-day-love-vintage-tone_24899-89.jpg" alt="img01" /> 
-                                        <figcaption> 
-                                            <h2>Online Giving</h2> 
-                                            <p><p>Give your donations, offerings, Tithes and Pledges to the Lord via VISA, MasterCard and Mobile Money (GH)</p>
-</p> 
-                                            <a href="give
-" >View more</a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>  
-                                <div class="grid col-md-3 col-sm-6 col-xs-12"> 
-                                                                  <figure class="effect-lily"> 
-                                        <img src="directory/gallery/home icons/video-placeholder.jpg" alt="img01" /> 
-                                        <figcaption> 
-                                            <h2>Greater Works 2019</h2> 
-                                            <p><p>29th July - 2nd August 2019<br />
-Morning session: 9am - 12pm. Evening session: 5pm - 9pm</p>
-</p> 
-                                            <a href="https://www.greaterworkscentral.com
-" >View more</a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>  
-                                <div class="grid col-md-3 col-sm-6 col-xs-12"> 
-                                                                  <figure class="effect-lily"> 
-                                        <img src="directory/gallery/home icons/home-audio.jpg" alt="img01" /> 
-                                        <figcaption> 
-                                            <h2>Audio Streaming</h2> 
-                                            <p><p>Listen to our audio sermon broadcast and audio live streaming of our services</p>
-</p> 
-                                            <a href="audio
-" >View more</a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>  
-                                <div class="grid col-md-3 col-sm-6 col-xs-12"> 
-                                                                  <figure class="effect-lily"> 
-                                        <img src="directory/gallery/home icons/wisdom-icon.jpg" alt="img01" /> 
-                                        <figcaption> 
-                                            <h2>Declaration</h2> 
-                                            <p></p> 
-                                            <a href="" >View more</a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>  
-                                <div class="grid col-md-3 col-sm-6 col-xs-12"> 
-                                                                  <figure class="effect-lily"> 
-                                        <img src="directory/gallery/home icons/home-powerbook.jpg" alt="img01" /> 
-                                        <figcaption> 
-                                            <h2>Mensa Otabil Store</h2> 
-                                            <p><p>Get all your downloadable sermons of Dr. Mensa Otabil</p>
-</p> 
-                                            <a href="https://www.mensaotabil.com
-" >View more</a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>  
-                                <div class="grid col-md-3 col-sm-6 col-xs-12"> 
-                                                                  <figure class="effect-lily"> 
-                                        <img src="directory/gallery/home icons/home-prayer.jpg" alt="img01" /> 
-                                        <figcaption> 
-                                            <h2>Prayer Request</h2> 
-                                            <p><p>Send in your Prayer Requests and the Lord will answer your prayers</p>
-</p> 
-                                            <a href="82
-" >View more</a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>  
-                            </div>                             
-                        </div>                         
-                    </div>                     
-                </section> 
-                <hr>                
-                <section class="contentblock3" id="contentblock3" > 
-                    <div class="container  white-bg "> 
-                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12"> 
-                               <div class="row">
-                               <div class="col-md-6">
-                                <div class="col-md-6 col-lg-12 col-sm-12 col-xs-12 pad-bottom20 pad20"> 
-                                    <h2>EVENTS & ADVERTS</h2> 								
-								</div>   
-								 <iframe width="100%" height="500px" src="https://www.youtube.com/embed/videoseries?list=PLocODN4sclAxWEdNdrXkx5-Q2v_eCjZsz" frameborder="0" gesture="media" allowfullscreen></iframe>                              
-                                </div>
-                                <div class="col-md-6">
- <div class="col-md-6 col-lg-12 col-sm-12 col-xs-12 pad-bottom20 pad20"> 
-                                    <h2>SOCIAL MEDIA</h2> 								
-								</div>  
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ficgcchristtemple%2F&tabs=timeline&width=520&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=215976095088446" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>                                       
-</div>   
-                                                      <br>
+				<center>
+<h1>Oops</h1>
+<h2>Wrong page accessed</h2>
 <br>
-                            </div>                             
-						</div>
-                    </div>                     
-                </section>                 
+<a href="home" class="btn btn-default">Go To Home Page</a> 
+</center>            
                         <section class="contentblock5" id="contentblock5"> 
                     <div class="container"> 
                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12"> 
@@ -419,6 +323,7 @@ Morning session: 9am - 12pm. Evening session: 5pm - 9pm</p>
                 <section class="contentblock6" id="contentblock6"> 
                     <div class="container"> 
                         <div class="col-md-4"> 
+
                             <div class="margin-bottom20"> 
                                 <span id="add-icon1" class="add-icon1"><p><i class="fa fa-home fa-2x"></i></p></span> 
                                 <span id="main-add1" class="main-add1"><p>69 Ring Road West, Accra, Ghana</p>
@@ -443,6 +348,9 @@ Help Line: (+233) 302 679 748,<br />
                                 <span id="main-add1" class="main-add1"><p>General Information:&nbsp;icgc@centralgospel.com</p>
 </span> 
                             </div>  
+                            
+  
+                       
                        </div>                         
                         <div class="col-md-4 col-sm-4 col-xs-12"> 
                             <h3>Follow us on Social Media</h3> 
@@ -471,12 +379,22 @@ Help Line: (+233) 302 679 748,<br />
                                         <a target="_blank" title="Mensa Otabil Facebook" href="https://www.facebook.com/mensaotabil
 "><i class="fa fa-facebook"></i></a> 
                                     </li>   
+  
                             </ul>                             
                             <h3>Sign-up to receive our newsletter</h3> 
                             <div class="input-group"> 
                                 <input type="email" class="form-control" placeholder="email address"> 
                                 <span class="input-group-btn"><a class="btn btn-primary" type="button">send</a></span> 
+                                
+                                
+                                
+                                
+                                
+                                
                             </div>    
+                            
+   
+                                                                             
    <br>
 <br>
 <br>
@@ -490,12 +408,16 @@ Help Line: (+233) 302 679 748,<br />
 "widgetId": "7NP1KVCsm8Ddy9xFmskmnGgvpxk4xg5sUreu7d2sSdk489rv47Lycp23fgfK1rN76U3MgubHDa1Cz4mg3myE2hKjcp5PAKYf1a32bdda93fb513584060759f8216102", "sipId":"740348", "domElement":"myZadarmaCallmeWidget2984" }, { "shape":"square", "language":"en", "width":"0", "dtmf":false, "font": "'Trebuchet MS','Helvetica CY',sans-serif", "color_call": "rgb(255, 255, 255)", "color_bg_call": "rgb(126, 211, 33)", "color_border_call": "rgb(191, 233, 144)", "color_connection": "rgb(255, 255, 255)", "color_bg_connection": "rgb(33, 211, 166)", "color_border_connection": "rgb(144, 233, 211)", "color_calling": "rgb(255, 255, 255)", "color_border_calling": "rgb(255, 218, 128)", "color_bg_calling": "rgb(255, 181, 0)", "color_ended": "rgb(255, 255, 255)", "color_bg_ended": "rgb(164,164,164)", "color_border_ended": "rgb(210, 210, 210)" 
     });
   }
+
   if (window.addEventListener) {
     window.addEventListener('load', myZadarmaCallmeWidgetFn2984, false);
   } else if (window.attachEvent) {
     window.attachEvent('onload', myZadarmaCallmeWidgetFn2984);
   }
 </script>                                                                                                                              -->                                               
+                                                                                                                                                                                                                                                                                     
+                                                                              
+                                                                                                                                
                         </div>                         
                         <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12"> 
                             <h3>Write to us:</h3> 
@@ -532,10 +454,16 @@ Help Line: (+233) 302 679 748,<br />
                         <div class="col-md-12 col-sm-12 col-xs-12"> 
                             <span id="footerlogo1" class="footerlogo1"><img src="virgin/images/Untitled-1.png" class="img-responsive" /></span> 
                             <span id="footer-cr1" class="footer-cr1">
+                            
                             <p>
-                                    <a style="color: white;" href="index.html">Terms & Conditions</a> | 
-                                    <a style="color: white;" href="index.html">Privacy Policy</a> | 
-                                    <a style="color: white;" href="index.html">Donation Refund Policy</a> | 
+                            	
+                            	                                
+                                    <a style="color: white;" href="137">Terms & Conditions</a> | 
+                                    
+                                    <a style="color: white;" href="138">Privacy Policy</a> | 
+                                    
+                                    <a style="color: white;" href="139">Donation Refund Policy</a> | 
+                                    
                             </p>
                             <p> 
 &copy; 2007 - 2019. International Central Gospel Church - Christ Temple, All rights reserved<br class="Apple-interchange-newline"></p>
@@ -546,43 +474,46 @@ Designed by: <a href="http://www.hyveconcepts.com" target="_blank">Hyve</a> - <a
                     </div>                     
                 </section>                 
                 <!-- End WOWSlider.com BODY section -->                 
+            
         </div>             
 		            <nav id="menu" style="color: white;"> 
                 <ul> 
                     <li class="sellected"  style="color: white;"> 
-                        <a href="home.html"  style="color: white;">Home</a> 
+                        <a href="home"  style="color: white;">Home</a> 
                     </li>                     
                     <li> 
                         <a  style="color: white;">About Us</a>
                         <ul> 
 					<li> 
-						<a  style="color: white;" href="74.html">History</a> 
+						<a  style="color: white;" href="74">History</a> 
 					</li> 
 					<li> 
-						<a  style="color: white;" href="75.html">Church Services</a> 
+						<a  style="color: white;" href="75">Church Services</a> 
 					</li> 
 					<li> 
-						<a  style="color: white;" href="76.html">Our Mission Statement</a> 
+						<a  style="color: white;" href="76">Our Mission Statement</a> 
 					</li> 
 					<li> 
-						<a  style="color: white;" href="77.html"> Our Logo (Acts 2:41- 42)</a> 
+						<a  style="color: white;" href="77"> Our Logo (Acts 2:41- 42)</a> 
 					</li> 
 					<li> 
-						<a  style="color: white;" href="78.html">Our Message (Jeremiah 31:17)</a> 
+						<a  style="color: white;" href="78">Our Message (Jeremiah 31:17)</a> 
 					</li> 
 					<li> 
-						<a  style="color: white;" href="79.html">Our Philosophy</a> 
+						<a  style="color: white;" href="79">Our Philosophy</a> 
 					</li> 
 					<li> 
-						<a  style="color: white;" href="80.html">Statement Of Faith</a> 
+						<a  style="color: white;" href="80">Statement Of Faith</a> 
 					</li> 
 					<li> 
-						<a  style="color: white;" href="index.html">Vision Of ICGC (Acts 2:42)</a> 
+						<a  style="color: white;" href="81">Vision Of ICGC (Acts 2:42)</a> 
 					</li> 
 					<li> 
-						<a  style="color: white;" href="index.html">Mensa Otabil</a> 
+						<a  style="color: white;" href="84">Mensa Otabil</a> 
 					</li> 
+  
 					</ul>                 
+ 
                     </li>                     
                     <li> 
                         <a  style="color: white;">Stores</a>
@@ -593,6 +524,8 @@ Designed by: <a href="http://www.hyveconcepts.com" target="_blank">Hyve</a> - <a
                                             <li> 
                                                 <a style="color: white;" target="_blank" href="http://www.mensaotabil.com">Mensa Otabil ( Www.mensaotabil.com )</a> 
                                             </li> 
+                                            
+
                       </ul>   
                     </li>                     
                     <li> 
@@ -607,13 +540,16 @@ Designed by: <a href="http://www.hyveconcepts.com" target="_blank">Hyve</a> - <a
                                             <li> 
                                                 <a  style="color: white;" href="https://www.greaterworkscentral.com">Greater Works</a> 
                                             </li> 
+                                            
+
                         </ul>
                     </li>                     
+                     
                     <li> 
-                        <a  style="color: white;" href="index.html">Give</a> 
+                        <a  style="color: white;" href="give">Give</a> 
                     </li>                                        
                     <li> 
-                        <a style="color: white;" href="index.html">Contact Us</a>
+                        <a style="color: white;" href="contact">Contact Us</a>
                     </li>                     
                 </ul>                 
             </nav>             
@@ -622,15 +558,19 @@ Designed by: <a href="http://www.hyveconcepts.com" target="_blank">Hyve</a> - <a
         <script type="text/javascript" src="js/carousel.js"></script>         
         <script type="text/javascript" src="virgin/js/plugins.js"></script>         
        <!-- <script src="https://maps.google.com/maps/api/js?sensor=true"></script> -->        
-        <script type="text/javascript" src="virgin/components/pg-blocks/js/plugins.js"></script>         
-        <script type="text/javascript" src="virgin/components/pg-blocks/js/bskit-scripts.js"></script>  
-<link rel="stylesheet" href="ajax/libs/fancybox/3-3-5/jquery.fancybox.min.css" />
-<script src="ajax/libs/fancybox/3-3-5/jquery.fancybox.min.js"></script>    
+        <script type="text/javascript" src="virgin/components/pg.blocks/js/plugins.js"></script>         
+        <script type="text/javascript" src="virgin/components/pg.blocks/js/bskit-scripts.js"></script>  
+    
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>    
 <script type="text/javascript">
 $('[data-fancybox="gallery"]').fancybox({
 	// Options will go here
 });
 </script>
+	     
+	     
 <!--<div id="zadarmaScripts"></div>
 <script>
 (function() {
@@ -640,5 +580,5 @@ $('[data-fancybox="gallery"]').fancybox({
 }());
 </script>
 -->   
-    <center><font size="2">This is the free demo result. For a full version of this website, please go to  <a href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/</a></font></center></body>     
+    </body>     
 </html>
