@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body {
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #e8e2e2;
+    background-image: url(img/gw-19-bg.png);
+    background-repeat: repeat;
+	
+}
+
+.topbar1 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#272262+71,1a69ae+100 */
+background: #d1d8e1; /* Old browsers */
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+
+
+.topbar2 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#272262+71,1a69ae+100 */
+background: #272262; /* Old browsers */
+background: -moz-linear-gradient(45deg, #272262 71%, #1a69ae 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #272262 71%,#1a69ae 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #272262 71%,#1a69ae 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272262', endColorstr='#1a69ae',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+   /* padding-top: 10px;
+    padding-bottom: 8px;*/
+}
+
+.topbar2 a {
+    color: #d1d8e1;
+}
+
+
+
+
+/*.contentblock5 {
+    background-color: #214e92;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}*/
+
+
+.contentblock5 {
+	background-image: url(img/gw-19-bg2.jpg);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
