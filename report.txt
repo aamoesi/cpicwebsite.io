@@ -97,7 +97,7 @@
 [ 6815 - 2019-08-23 04:39:03 ] 'Original Href = https://www.facebook.com/icgcchristtemple - [( 1/31 )]' 
 [ 6815 - 2019-08-23 04:39:03 ] 'href = https://www.facebook.com/icgcchristtemple ( is_internal_url = No )' 
 [ 6815 - 2019-08-23 04:39:03 ] '###############################################################' 
-[ 6815 - 2019-08-23 04:39:03 ] 'Original Href = https://www.instagram.com/mensa.otabil - [( 2/31 )]' 
+
 [ 6815 - 2019-08-23 04:39:03 ] 'href = https://www.instagram.com/mensa.otabil ( is_internal_url = No )' 
 [ 6815 - 2019-08-23 04:39:03 ] '###############################################################' 
 [ 6815 - 2019-08-23 04:39:03 ] 'Original Href = https://www.twitter.com/mensaotabil - [( 3/31 )]' 
