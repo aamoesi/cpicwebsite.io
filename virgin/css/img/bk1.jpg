@@ -291,9 +291,7 @@ s0.parentNode.insertBefore(s1,s0);
                                             <li> 
                                                 <a href="http://www.centralaidgh.org">Central Aid</a> 
                                             </li> 
-                                            <li> 
-                                                <a href="https://www.greaterworkscentral.com">Greater Works</a> 
-                                            </li> 
+                                            
                                             
                                         </ul>                                         
                                     </li>                                     
@@ -537,9 +535,7 @@ Designed by: <a href="http://www.hyveconcepts.com" target="_blank">Hyve</a> - <a
                                             <li> 
                                                 <a  style="color: white;" href="http://www.centralaidgh.org">Central Aid</a> 
                                             </li> 
-                                            <li> 
-                                                <a  style="color: white;" href="https://www.greaterworkscentral.com">Greater Works</a> 
-                                            </li> 
+                                            
                                             
 
                         </ul>

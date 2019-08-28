@@ -45,7 +45,7 @@
         <!-- End WOWSlider.com HEAD section -->         
         <link href="virgin/css/responsive.css" rel="stylesheet" type="text/css">
 		
-		<link href="css/greaterworks.css" rel="stylesheet" type="text/css">
+		
         
      <!-- Chatra {literal} -->
 
@@ -291,10 +291,7 @@ s0.parentNode.insertBefore(s1,s0);
                                             <li> 
                                                 <a href="http://www.centralaidgh.org">Central Aid</a> 
                                             </li> 
-                                            <li> 
-                                                <a href="https://www.greaterworkscentral.com">Greater Works</a> 
-                                            </li> 
-                                            
+                                           
                                         </ul>                                         
                                     </li>                                     
 <li><a target="_blank" href="give">Give</a></li> 

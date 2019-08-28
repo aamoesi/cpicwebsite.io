@@ -323,7 +323,7 @@
 [ 7340 - 2019-08-23 04:39:05 ] 'href = http://www.centralaidgh.org ( is_internal_url = No )' 
 [ 7340 - 2019-08-23 04:39:05 ] '###############################################################' 
 [ 7340 - 2019-08-23 04:39:05 ] 'Original Href = https://www.greaterworkscentral.com - [( 20/31 )]' 
-[ 7340 - 2019-08-23 04:39:05 ] 'href = https://www.greaterworkscentral.com ( is_internal_url = No )' 
+
 [ 7340 - 2019-08-23 04:39:05 ] '###############################################################' 
 [ 7340 - 2019-08-23 04:39:05 ] 'Original Href = give - [( 21/31 )]' 
 [ 7340 - 2019-08-23 04:39:05 ] 'href = https://www.centralgospel.com/give ( is_internal_url = Yes )' 
