@@ -471,9 +471,7 @@ Designed by: <a href="http://www.hyveconcepts.com" target="_blank">Hyve</a> - <a
 					<li> 
 						<a  style="color: white;" href="81">Vision Of ICGC (Acts 2:42)</a> 
 					</li> 
-					<li> 
-						<a  style="color: white;" href="84">Mensa Otabil</a> 
-					</li> 
+					
   
 					</ul>                 
  
